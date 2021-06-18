@@ -1,0 +1,282 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+} 
+
+/*NAVIGATION BAR*/
+nav {
+	width: 100%;
+	background: #f08e81;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+li {
+	float: left;
+}
+a.navi {
+	margin: 10px;
+	width: 246px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+a:hover {
+	color: black;
+	transition: 0.3s;
+}
+
+/*EVERY SECTION*/
+#section1 {
+	height: 800px;
+	width: 95%;
+	background-color: #dfece3;
+	display: inline-block;
+}
+#section2 {
+	height: 700px;
+	width: 95%;
+	background-color: #fdf1e5;
+	display: inline-block;
+}
+#section3 {
+	height: 850px;
+	width: 95%;
+	background-color: #FFFACD;
+	display: inline-block;
+}
+#section4 {
+	height: 825px;
+	width: 95%;
+	background-color: #fdf1e5;
+	display: inline-block;
+}
+#section5 {
+	height: 1000px;
+	width: 95%;
+	background-color: #FFFACD;
+	display: inline-block;
+}
+#section6 {
+	height: 100px;
+	width: 95%;
+	background-color: #f08e81;
+	display: inline-block;
+}
+
+/*FONT USED*/
+h1 {
+	margin: 70px;
+	text-align: center;
+	padding: 0;
+	letter-spacing: 4px;
+}
+h2 {
+	font-family: Papyrus;
+	letter-spacing: 2px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+h2.contact {
+  	font-family: Papyrus;
+   	font-size: 18px;
+   	letter-spacing: 0.8px;   
+   	float: center; 	
+}
+h3 {
+	font-family: Agency FB;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: black;
+   	font-weight: bolder;
+   	text-align: center;
+}
+h3.language {
+	font-family: Agency FB;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: black;
+   	font-weight: bolder;
+   	text-align: center;
+   	margin-left: 24em;
+   	margin-top: -24em;
+}
+
+/*IMAGE AND PICTURE*/
+.jackPic {
+	width: 22%;
+	height: 25%;
+	border-radius: 50%;
+	margin-top: -1em;
+}
+.kalimbaPic {
+	width: 14%;
+	border-radius: 3%;
+	margin-top: -1em;
+}
+.languagePic {
+	width: 14%;
+	border-radius: 3%;
+	margin-top: -1em;
+	margin-right: 45em;
+}
+
+/*HR TAG*/
+hr.about {
+	border: 2px solid #f08e81;
+	width: 8em;
+	margin-top: -50px;
+}
+hr.sports {
+	border: 2px solid #f08e81;
+	width: 22em;
+	margin-top: -50px;
+}
+hr.movies {
+	border: 2px solid #f08e81;
+	width: 33em;
+	margin-top: -50px;
+}
+hr.language {
+	border: 2px solid #f08e81;
+	width: 41em;
+	margin-top: -50px;
+}
+hr.contacts {
+	border: 2px solid #f08e81;
+	width: 13em;
+	margin-top: -50px;
+}
+
+/*CONTACT FORM*/
+fieldset {
+    width: 75%;
+    height: 120%;
+	float: center;
+}
+legend {
+	background-color: transparent;
+	margin-left: 4%;
+}
+label{
+	color: black;
+	font-family: courier new, monospace;
+	letter-spacing: 2px;
+	float: center;
+}
+input[type=text] {
+	width: 72%;
+	height: 3.5%;
+	font-family: Andale Mono, monospace;
+	background: transparent;
+	margin-bottom: 15px;
+	margin-top: 8px;	
+	font-size: 17px;
+  	border: none;
+  	border-bottom: 2px solid black;
+  	letter-spacing: 1px;
+}
+span.a {
+	display: inline-block;
+	width: 43%;
+	height: 5.5%;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+input[name=first] {
+	width: 75%;
+	height: 68%;
+	font-family: Andale Mono, monospace;
+	background: transparent;
+	display: inline-block;
+	margin-bottom: 15px;	
+	font-size: 17px;
+  	border: none;
+  	border-bottom: 2px solid black;
+  	letter-spacing: 1px;
+}
+input[name=last] {
+	width: 75%;
+	height: 68%;
+	font-family: Andale Mono, monospace;
+	background: transparent;
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	font-size: 17px;
+	font-family: arial;
+  	border: none;
+  	border-bottom: 2px solid black;
+  	letter-spacing: 1px;
+}
+input[name=email] {
+	width: 80%;
+	height: 68%;
+	font-family: Andale Mono, monospace;
+	background: transparent;
+	display: inline-block;
+	margin-bottom: 19px;
+	margin-left: 35px;	
+	font-size: 17px;
+  	border: none;
+  	border-bottom: 2px solid black;
+  	letter-spacing: 1px;
+}
+label[for=last] {
+	margin-left: 35%;
+	margin-top: -10px;
+}
+input[type=text]:focus, textarea:focus {
+	border-color: #FABC09;
+	outline: none;
+}
+textarea {
+	width: 80%;
+	height: 40%;
+	font-family: Andale Mono, monospace;
+	scroll-behavior: auto;
+	background: #ffffff;
+	margin-left: 33px;
+	margin-top: 12px;
+	padding-left: 5px;	
+	font-size: 17px;
+	font-family: arial;
+	resize: none;
+	border-color: black;
+}
+.button {
+	width: 10em;
+	height: 4em;
+	background-color: white;
+	border: 2px solid #FFC647;
+	border-radius: 12px;
+	float: center;
+			
+}
+.button:hover{
+	background-color: #FFC647;
+	opacity: 2;
+}
+
+/** SOCIAL MEDIA FORM **/
+.icon {
+	width: 8%;
+	opacity: 0.7;
+}
+.icon:hover {
+	opacity: 1;
+}
