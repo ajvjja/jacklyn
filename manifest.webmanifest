@@ -1,10 +1,10 @@
 {
-  "name": "Jacklyn S. Gomez",
-  "short_name": "Jacklyn's First PWA",
+  "name": "Jacklyn Gomez",
+  "short_name": "PWA",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "Jackie's first PWA",
+  "description": "My Portfolio",
   "icons": [
     {
       "src": "images/512.png",
@@ -18,4 +18,3 @@
     }
   ]
 }
-
